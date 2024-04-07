@@ -7,8 +7,6 @@ import { Row, Col, Alert, Container } from "reactstrap"
 import { useSelector, useDispatch } from "react-redux"
 import { Link, useNavigate } from "react-router-dom"
 
-// availity-reactstrap-validation
-import { AvForm, AvField } from "availity-reactstrap-validation"
 
 // actions
 import { loginUser, apiError, socialLogin } from "../../../store/actions"
@@ -56,7 +54,7 @@ const Login = (props) => {
                 </div>
                 <div className="card-body pt-5">
                   <div className="p-2">
-                    <AvForm
+                    <form
                       className="form-horizontal"
                       onValidSubmit={(e, v) => {
                         handleValidSubmit(e, v)
@@ -67,7 +65,7 @@ const Login = (props) => {
                       ) : null}
 
                       <div className="mb-3">
-                        <AvField
+                        <input
                           name="email"
                           label="Email"
                           value="admin@themesbrand.com"
@@ -79,7 +77,7 @@ const Login = (props) => {
                       </div>
 
                       <div className="mb-3">
-                        <AvField
+                        <input
                           name="password"
                           label="Password"
                           value="123456"
@@ -116,7 +114,7 @@ const Login = (props) => {
                         <Link to="/forgot-password" className="text-muted"><i
                           className="mdi mdi-lock me-1"></i> Forgot your password?</Link>
                       </div>
-                    </AvForm>
+                    </form>
 
                   </div>
                 </div>

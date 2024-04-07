@@ -23,7 +23,6 @@
     "@testing-library/user-event": "^14.5.2",
     "@vtaits/react-color-picker": "^1.0.2",
     "apexcharts": "^3.47.0",
-    "availity-reactstrap-validation": "^2.7.1",
     "axios": "^1.6.8",
     "axios-mock-adapter": "^1.22.0",
     "bootstrap": "^5.3.3",
