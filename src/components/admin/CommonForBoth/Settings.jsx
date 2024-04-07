@@ -18,7 +18,6 @@ import SimpleBar from "simplebar-react"
 
 import { Link } from "react-router-dom"
 
-import "./rightbar.scss"
 
 //Import images
 import layout1 from "../../../assets/images/layouts/layout-1.jpg"

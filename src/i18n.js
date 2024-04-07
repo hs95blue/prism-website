@@ -2,11 +2,11 @@ import i18n from "i18next"
 import detector from "i18next-browser-languagedetector"
 import { initReactI18next } from "react-i18next"
 
-import translationGr from "../../react-template/src/locales/gr/translation.json"
-import translationIT from "../../react-template/src/locales/it/translation.json"
-import translationRS from "../../react-template/src/locales/rs/translation.json"
-import translationSP from "../../react-template/src/locales/sp/translation.json"
-import translationENG from "../../react-template/src/locales/eng/translation.json"
+import translationGr from "./locales/gr/translation.json"
+import translationIT from "./locales/it/translation.json"
+import translationRS from "./locales/rs/translation.json"
+import translationSP from "./locales/sp/translation.json"
+import translationENG from "./locales/eng/translation.json"
 
 // the translations
 const resources = {

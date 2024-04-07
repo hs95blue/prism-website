@@ -13,7 +13,6 @@ import {
 import Header from "./Header"
 import Sidebar from "./Sidebar"
 import Footer from "./Footer"
-import Rightbar from "../CommonForBoth/Rightbar"
 import { Outlet } from 'react-router-dom'
 
 class Layout extends Component {
@@ -105,8 +104,6 @@ class Layout extends Component {
             </div>
           </div>
         </div>
-        <Rightbar type='settings'/>
-        <Rightbar type='examplecode'/>
       </React.Fragment>
     )
   }

@@ -12,7 +12,6 @@ import {
 import { Card, CardBody, CardTitle, Col, Row } from "reactstrap"
 import Header from "./Header"
 import Footer from "./Footer"
-import Rightbar from "../CommonForBoth/Rightbar"
 
 class Layout extends Component {
   constructor(props) {
@@ -117,8 +116,6 @@ class Layout extends Component {
           </div>
 
         </div>
-        <Rightbar type='settings'/> 
-        <Rightbar type='examplecode'/>
       </React.Fragment>
     )
   }
